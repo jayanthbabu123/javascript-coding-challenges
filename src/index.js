@@ -26,6 +26,7 @@ const removeVowel = (str) => {
 };
 console.log(removeVowel("my name"));
 
+// find the numbers which occurs odd number of times
 const data = [1, 2, 2, 2, 4, 4, 4, 4, 4, 4, 5, 5];
 const obj = data.reduce((acc, val) => {
   return { ...acc, [val]: (acc[val] || 0) + 1 };
